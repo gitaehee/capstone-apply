@@ -1,0 +1,13 @@
+{
+    "buildCommand": "pnpm build",
+    "outputDirectory": ".next",
+    "framework": "nextjs",
+    "rootDirectory": "frontend",
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/vote"
+      }
+    ]
+  }
+  
