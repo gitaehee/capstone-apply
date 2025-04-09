@@ -93,7 +93,7 @@ export default function RankVotePage() {
         <Card>
           <CardContent className="p-4 space-y-2">
             <p>당신의 등수를 입력하세요 (1~42)</p>
-            <Input value={rank} onChange={e => setRank(e.target.value)} placeholder="예: 13" />
+            <Input value={rank} onChange={e => setRank(e.target.value)} placeholder="예: 1" />
             <Button onClick={handleRankSubmit}>등수 제출</Button>
           </CardContent>
         </Card>
